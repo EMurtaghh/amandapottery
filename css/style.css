@@ -1,0 +1,172 @@
+/*
+    stlye.css
+
+    This is the page that will have all the CSS for our project site.
+    Be sure to follow the order of the rules in this this file.
+*/
+
+/*Colors
+    #FACF94,
+    #DEAA83,
+    #F5B59C,
+    #DE8F83,
+    #FA9497
+
+
+
+
+
+*/
+/* ========================================================= */
+/*  IMPORTS for fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Teko');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Redressed&family=Yellowtail&display=swap');
+
+/* ========================================================= */
+/*  Page Level Style Rules */
+header {
+    background-color: #6BE8C2;
+}
+
+header img {
+    width: 100%;
+}
+
+footer {
+    background-color: #8FFF75;
+    font-family: 'Yellowtail', 'Redressed', cursive;
+}
+
+
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* ========================================================= */
+/* Utility Text Style Rules */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Indie Flower', 'Lobster', cursive;
+}
+
+#limegreen {
+    color: #32CD32;
+}
+
+.center {
+    text-align: center;
+}
+
+.imgCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    text-align: left;
+}
+
+.size40 {
+    font-size: 40px;
+}
+
+.size30 {
+    font-size: 30px;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.pad15 {
+    padding: 15px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    text-decoration: bold;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+/* TAB STYLES */
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #FFFFFF;
+    background-color: #2F8207;
+    border-color: #222222 #222222 #2F8207;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #222222;
+}
+
+.tab-content > .active {
+    background-color: #2F8207;
+    color: #FFFFFF;
+    padding: 15px;
+    border-right: 1px solid #222222;
+    border-left: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.nav-tabs .nav-link {
+    color: #000000;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+    border-color: #e9ecef #e9ecef #222222;
+}
+
+/* ---------------------------------------*
+/* Add spacing to text elements */
+
+.text-spacing {
+    padding: 0.25em;
+}
+
+/* ========================================================= */
+/* Extending BS Stlye Rules */
+
+/* --------------------------------------------------------- */
+/* Row .border :: add borders to columns */
+
+.borders > [class*="col-"] {
+    border: 1px solid rgba(86, 61, 124, .2);
+}
+
+/* --------------------------------------------------------- */
+/* Tabs .borders :: Add borders to tab content */
+
+.tab-content.borders {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
